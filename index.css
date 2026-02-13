@@ -1,0 +1,84 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(245, 238, 220);
+  align-items: center;
+  background-size: 100px 100px;
+  background-image:
+    linear-gradient(to right, #eecd9b 2px, transparent 1px),
+    linear-gradient(to bottom, #eecd9b 2px, transparent 1px);
+}
+
+.box {
+    background-color: rgb(231, 181, 133);
+    border-radius: 50px;
+    box-shadow: 5px 10px 5px 2px rgba(211, 60, 49, 0.5);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    width: -webkit-fill-available;
+    margin: 20px 100px;
+}
+
+.noBTN {
+    background-color: 
+    rgb(95, 203, 240);
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+     position: relative;
+}
+
+.yesBTN {
+      background-color: 
+    rgb(238, 118, 192);
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.noBTN:hover {
+    background-color: rgb(105, 105, 241);
+}
+
+.yesBTN:hover {
+    background-color: rgb(233, 50, 141);
+}
+
+    
+.question {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
